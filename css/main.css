@@ -1,0 +1,197 @@
+body{
+background-color: #181A1B;
+}
+li{
+    color: white;
+}
+
+/* ruta de especificacion */
+
+
+header nav ul{
+    list-style: none;
+}
+
+section ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(244, 244, 247);
+}
+main{
+    text-align: center;
+
+}
+section ul li{
+    color: aqua;
+}
+footer{
+    text-align: center;
+    
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+}
+.imagen{
+    text-align: center;
+}
+    
+    
+
+
+/* estilos de header */
+
+header{
+    display: flex;
+    background-color: #181A1B;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+}
+header img{
+    width: 30%;
+}
+header nav ul{
+    
+    display: flex;
+    gap: 20px;
+}
+/* estilos de main */
+
+main{
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main ul li{
+    list-style: none;
+}
+
+main .textos .boton{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+/* estilos de section */
+section{
+    display: flex;
+    background-color: #181A1B;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section div{
+    align-items: center;
+}
+
+section div img{
+    width: 30%;
+    
+}
+
+/* estilos de footer */
+footer{
+    align-items: center;
+ }
+ 
+
+.textos{
+margin-top: 5px;
+text-align: center;
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-custom {
+    background-color: #181A1B;
+
+}
+main h1{
+    padding: 1rem;
+}
+
+header .productoshombres{
+    background-color: #181A1B;
+}
+
+body .hombres-page{
+    background-color: #181A1B;
+}
+footer p{
+    color: whitesmoke;
+}
+
+footer {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center; 
+   height: 25vh;
+  }
+
+  
+
+header a{
+    text-align: center;
+    color: whitesmoke;
+}
+section img{
+      width: 300px;
+      display: grid;
+      grid-template-columns: repeat( 2, 1fr);
+      gap: 20x;
+}
+img{
+    margin: 30px;
+    justify-content: space-between;
+}
+.producto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.producto-articulo{
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.producto-articulo img{
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.producto-articulo .precio{
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+
