@@ -41,7 +41,7 @@ header .productoshombres {
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -67,17 +67,15 @@ main .textos .boton {
 section {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   background-color: #181A1B;
   padding: 10px;
   flex-wrap: wrap;
 }
 section div {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  width: fit-content;
 }
 section div img {
   width: 30%;
@@ -90,8 +88,6 @@ section ul li {
 }
 section img {
   width: 300px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -123,34 +119,29 @@ footer p {
   justify-content: space-between;
 }
 
-.producto {
+.cajaProductos {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 20px;
-  margin: 0 auto;
-  gap: 20px;
+  padding: 0;
 }
-.producto .producto-articulo {
+.cajaProductos .producto-articulo {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0;
-  width: 200px;
+  justify-content: space-around;
 }
-.producto .producto-articulo img {
+.cajaProductos .producto-articulo div {
+  width: fit-content;
+}
+.cajaProductos .producto-articulo img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
-.producto .producto-articulo .precio {
-  margin-top: 5px;
-  color: whitesmoke;
-  font-weight: bolder;
+.cajaProductos p {
+  display: flex;
+  justify-self: center;
+  color: aliceblue;
 }
 
 @media (max-width: 768px) {
